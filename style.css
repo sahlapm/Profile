@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* To display body */
+body {
+    background: #67B26F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4ca2cd, #67B26F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #000;
+}
+/*Class for header*/
+.head
+{
+background-color:black;
+
+height: 80px;
+}
+
+/* Class for navigation*/
+.navigation{
+float: right;
+margin-top: 25px;
+margin-right:70px;
+
+}
+
+/* to design anchor tag*/
+nav a{
+
+    text-decoration: none;
+    color: white;
+   border: 1px solid white;
+   padding: 6px;
+   margin-right: 7px ;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+/*To design profile picture in home page*/
+.profile_img {
+    width: 15em;
+    height: 15em;
+    object-fit: cover;
+   
+    border: 10px solid #ccc;
+    border-radius: 50%;
+   
+}
+/*To design profile picture in other pages*/
+.profile_img_sub {
+    width: 10em;
+    height: 10em;
+    object-fit: cover;
+   
+    border: 10px solid #ccc;
+    border-radius: 50%;
+   
+}
+
+  
+
+/*To design aside*/
+aside{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 100px;
+    float: left;
+   
+}
+
+/*To design  li in aside*/ 
+aside li
+{
+   padding: 5px;
+   list-style-type:square;
+}
+/*To design display contents*/
+.Profile
+{
+   border-style: groove;
+    padding: 10px;
+   font-weight: 700;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*To design form*/
+form
+{  
+    margin-top:10px ;
+    float: right;
+    margin-right: 10em;
+    height: 15em;
+    padding: 50px;
+    background-color: transparent
+}
+/*To design form*/
+.formSmall
+{
+    
+    margin-top:60px ;
+    float: right;
+   
+    height: 10em;
+    padding: 30px;
+    background-color: transparent
+}
+/*Footer*/
+
+footer
+{
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: black;
+  text-align: center;
+  height: 1.5em;
+  margin-top: 60%;  
+  padding: 6px;
+}
